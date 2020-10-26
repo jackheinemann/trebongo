@@ -8,13 +8,14 @@
 
   <div class="container-fluid">
     <!-- <button type="button" class="btn btn-danger" onclick="buzz()">Danger</button> -->
-    <form>
+    <form id='nameForm'>
       <div class="form-group">
         <label for="exampleInputEmail1">Enter your name:</label>
         <input type="text" class="form-control" id="inputName">
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="button" class="btn btn-primary" onclick="submitName()">Submit</button>
     </form>
+    <img src="assets/buzzer.png" id="buzzer" onclick="buzz()" style="display: none;">
   </div>
 
 
